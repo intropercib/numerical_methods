@@ -2,10 +2,14 @@
 
 The **Bisection Method** is one of the simplest and most widely used methods for solving **non-linear equations**. It is a **bracket method**, meaning it requires two initial guesses that bound the root of the function. The method is based on the **Intermediate Value Theorem**, which states that if a continuous function changes signs over an interval, then the function has at least one root within that interval.
 
+<div style="background:white; width:500px; height:500px; margin:0 auto;"><img src ="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Bisection_method.svg/800px-Bisection_method.svg.png" height="500px" width="500px"> </div>
+
+###### Image Source: [Wikipedia](https://en.wikipedia.org/wiki/Bisection_method)
+
 ### Key Characteristics of the Bisection Method:
 
 - **Guaranteed Convergence**: The bisection method is guaranteed to converge if the initial guesses are chosen correctly, i.e., if the function values at the two guesses have opposite signs (i.e., f(a) \* f(b) < 0).
-- **Slower Convergence**: Compared to methods like Newton's method, the bisection method has slower convergence. However, it’s robust and reliable.
+- **Slower Convergence**: Compared to methods like Newton's method, the bisection method has slower convergence. However, it's robust and reliable.
 - **Root-Finding Interval**: The method doesn't require the calculation of the derivative of the function, making it applicable to a wide range of problems.
 
 ### How the Bisection Method Works:

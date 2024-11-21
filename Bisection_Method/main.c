@@ -15,9 +15,9 @@ float F(float x)
 
 // Checks if initial points bracket a root by checking if F(x1) and F(x2) have opposite signs
 // Returns true if a root exists between x1 and x2
-_Bool checkBracketingCond(float x1, float x2)
+_Bool checkBracketingCond(float x_1, float x_2)
 {
-    return ((F(x1) * F(x2)) < 0);
+    return ((F(x_1) * F(x_2)) < 0);
 }
 
 // Checks if the method has converged to a root based on two conditions:
@@ -48,7 +48,7 @@ float bisectionMethod(float x_1, float x_2)
         }
         else
         {
-            x_1 = x_m; //// Root is in right half
+            x_1 = x_m; // Root is in right half
         }
     } while (!checkRoot(x_m, x_1, x_2));
     printf("Root :: %.5f\n", x_m);
