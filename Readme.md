@@ -41,6 +41,14 @@ This repository aims to be a learning and reference guide for various **numerica
 - Newton-Raphson Method
 - Secant Method
 
+2. **Interpolation**:
+
+- Lagrange Interpolation
+
+3. **Regression**:
+
+- Linear Regression
+
 ## Contributing
 
 Feel free to contribute to this learning repository:
