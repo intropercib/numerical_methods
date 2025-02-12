@@ -6,6 +6,7 @@ A comprehensive repository documenting my journey of implementing numerical meth
 
 - [Introduction](#-introduction)
 - [Getting Started](#-getting-started)
+- [Topics Covered](#topics-covered)
 - [Contributing](#-contributing)
 
 ## Introduction
@@ -27,27 +28,59 @@ This repository aims to be a learning and reference guide for various **numerica
 
 ## Getting Started
 
-<!-- later -->
-
 ### Prerequisites
 
-<!-- later  -->
+- Basic understanding of calculus and linear algebra
+- Programming knowledge in your preferred language
+- Mathematical problem-solving skills
 
 ### Topics Covered
 
 1. **Non-Linear Equations**:
 
-- Bisection Method
-- Newton-Raphson Method
-- Secant Method
+   - [Bisection Method](/Bisection_Method/)
+   - [Newton-Raphson Method](/Newton_Raphson/)
+   - [Secant Method](/Secant_Method/)
 
-2. **Interpolation**:
+2. **Interpolation & Regression**
 
-- Lagrange Interpolation
+   - [Lagrange Interpolation](/Lagrange_Interpolation/)
+   - [Linear Regression](/Linear_Regression/)
 
-3. **Regression**:
+3. **Numerical Integration**
 
-- Linear Regression
+   - [Simpson's 1/3 Rule](/Simpson_1_3/)
+   - [Simpson's 3/8 Rule](/Simpson_3_8/)
+
+4. **Differential Equations**
+
+   - [Runge-Kutta 4th Order Method (RK4)](/RK4_Method/)
+
+### Implementation Details
+
+Each implemented method includes:
+
+- Theoretical background
+- Algorithm explanation
+- Code implementation
+- Example problems and solutions
+- Error analysis where applicable
+
+### Directory Structure
+
+```
+numerical_methods/
+├── Bisection_Method/
+    ├── Info.md  # Information about the method
+    ├── main.c   # Main code file
+├── Newton_Raphson/
+├── Secant_Method/
+├── Lagrange_Interpolation/
+.   .
+.   .
+.   .
+├── README.md # Main README file
+```
 
 ## Contributing
 
