@@ -71,7 +71,7 @@ Each implemented method includes:
 ```
 numerical_methods/
 ├── Bisection_Method/
-    ├── Info.md  # Information about the method
+    ├── README.md  # Information about the method
     ├── main.c   # Main code file
 ├── Newton_Raphson/
 ├── Secant_Method/
